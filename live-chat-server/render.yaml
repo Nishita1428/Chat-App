@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: live-chat-server
+    env: node
+    region: oregon  # Change if needed
+    plan: free  # You can change to a paid plan if required
+    branch: main  # Ensure your branch name is correct
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: MONGO_URI
+        value: "mongodb+srv://<username>:<password>@cluster0.mongodb.net/<database>?retryWrites=true&w=majority"
+      - key: JWT_SECRET
+        value: "your_jwt_secret_key"
+      - key: PORT
+        value: "5000"

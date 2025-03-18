@@ -23,5 +23,10 @@ Revamping the UI (Changed colors, layout, and typography)
  Implemented Message Status (Delivered, Read indicators)
 Refactored Code & Improved Performance
 
+https://github.com/Nishita1428/Chat-App
+cd Chat App
+
 Contributors-->
 Nishita Agrawal
+
+https://vercel.com/nishita-agrawals-projects/live-chat-application/9niG9sguwWA49N5qKebvh24j7HSr
